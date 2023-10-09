@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg mt-2 mx-xl-5 px-2">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-light nav-title heading-color heading-style fw-light fs-2" href="#"><span
+                    class="nav-sub-title pe-1">My</span>Plants</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-black text-center gap-3 ms-md-5 fw-light">
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-style fs-5" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-style fs-5" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-style fs-5" href="#">Plants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-style fs-5" href="#">Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black text-style fs-5" href="#">Help</a>
+                    </li>
+                </ul>
+                <div class="d-flex flex-column flex-md-row gap-4 ms-md-4 justify-content-center">
+                    <div class="d-flex justify-content-between  border border-1 rounded-5">
+                        <input type="search" placeholder="Search Products..."
+                            class="border border-0 ms-3 nav-search-bar py-2 px-md-2">
+                        <i class="fa-solid fa-magnifying-glass fs-5 me-3 my-2"></i>
+                    </div>
+                    <div class="d-flex gap-5 gap-md-3 justify-content-center">
+                        <a href="#" target="_blank" class="text-decoration-none"><i class="fa-solid fa-user-plus mt-2 text-black social-icon fs-5"></i></a>
+                        <a href="#" target="_blank" class="text-decoration-none"><i class="fa-solid fa-bag-shopping mt-2 text-black social-icon fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <section class="container-fluid d-flex flex-column flex-md-row hero-section my-5 px-0 gap-4">
+        <div class="hero-left ms-lg-3 my-md-5">
+            <div class="d-flex justify-content-center justify-content-md-start align-items-center gap-2">
+                <hr class="horizontal-line fw-bold">
+                <p class="hero-sub-title">Love nature</p>
+            </div>
+            <h1 class="mt-md-2 text-center text-md-start hero-title heading-color">Take a new friend to your home</h1>
+            <div class="d-flex  justify-content-center justify-content-md-start gap-3 gap-lg-5 mt-lg-5 pt-2 pt-md-5">
+                <button class="rounded-5 px-3 px-xl-5 py-2 bg-white fw-semibold hero-buttons button-style fs-xl-4">Plant
+                    Care</button>
+                <button class="rounded-5 px-3 px-xl-5 py-2 bg-white fw-semibold hero-buttons button-style fs-xl-4">Buy a
+                    plant</button>
+            </div>
+            <div class="d-flex justify-content-center justify-content-md-start align-item-center gap-4 pt-3 pt-md-5">
+                <a href="#" class="heading-color hero-social-icons" target="_blank"><i class="fa-brands fa-facebook-f fs-4"></i></a>
+                <a href="#" class="heading-color hero-social-icons" target="_blank"><i class="fa-brands fa-instagram fs-4"></i></a>
+                <a href="#" class="heading-color hero-social-icons" target="_blank"><i class="fa-brands fa-pinterest-p fs-4"></i></a>
+            </div>
+        </div>
+        <div class="hero-right d-flex flex-column flex-md-row gap-3">
+            <div class="hero-slider-img">
+                <div class="hero-plant-image">
+                    <img src="images/hero-section/plant.png" alt="plant image" class="h-100 w-100 img-fluid">
+                </div>
+                <div class="hero-leafs-image ">
+                    <img src="images/hero-section/leafs.png" alt="leafs image"
+                        class="h-100 w-100 img-fluid overflow-y-hidden">
+                </div>
+            </div>
+            <div class="hero-slider-img">
+                <div class="hero-leafs-image">
+                    <img src="images/hero-section/plant.png" alt="plant image" class="h-100 w-100 img-fluid">
+                </div>
+                <div class="hero-plant-image">
+                    <img src="images/hero-section/leafs.png" alt="leafs image"
+                        class="h-100 w-100 img-fluid overflow-y-hidden">
+                </div>
+            </div>
+            <div class="w-50 d-flex justify-content-center justify-content-md-end align-items-md-end mx-auto mx-md-0">
+                <div><button class="border-0 rounded-5 p-2 bg-white shadow me-5 slider-button"><img
+                            src="images/hero-section/arrow.png" alt="back button" height="25px" width="25px"
+                            class="hero-back-button"></button></div>
+                <div class="d-flex">
+                    <hr class="fw-bold fs-1 hero-slider-line">
+                </div>
+                <div><button class="border-0 rounded-5 p-2 bg-white shadow ms-5 slider-button"><img
+                            src="images/hero-section/arrow.png" alt="back button" height="25px" width="25px"
+                            class="hero-forward-button"></button> </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- plant collection section -->
+
+    <section class="container plant-collection mt-md-5 pt-lg-5">
+        <h2 class="text-center">Plant collection</h2>
+        <div class="d-flex flex-column flex-md-row  gap-1 gap-md-5 collection-slider-container">
+            <div
+                class="collection-slider d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mt-5 ms-lg-5 ps-lg-5 animation">
+                <div>
+                    <img src="images/plant-collection/plant-1.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">Bird of paradise</p>
+                </div>
+                <div>
+                    <img src="images/plant-collection/plant-2.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">Rubber plants</p>
+                </div>
+                <div>
+                    <img src="images/plant-collection/plant-3.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">String of pearls</p>
+                </div>
+            </div>
+            <div
+                class="collection-slider d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mt-5 ms-lg-5 ps-lg-5 animation">
+                <div>
+                    <img src="images/plant-collection/plant-2.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">Rubber plants</p>
+                </div>
+                <div>
+                    <img src="images/plant-collection/plant-3.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">String of pearls</p>
+                </div>
+                <div>
+                    <img src="images/plant-collection/plant-1.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">Bird of paradise</p>
+                </div>
+            </div>
+            <div
+                class="collection-slider d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mt-5 ms-lg-5 ps-lg-5 animation">
+                <div>
+                    <img src="images/plant-collection/plant-3.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">String of pearls</p>
+                </div>
+                <div>
+                    <img src="images/plant-collection/plant-1.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">Bird of paradise</p>
+                </div>
+                <div>
+                    <img src="images/plant-collection/plant-2.png" alt="plant-image" class="img-fluid" width="350px">
+                    <p class="mt-4 fs-5 fw-light heading-style">Rubber plants</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row flex-md-column justify-content-center align-content-center gap-3">
+                <button class="rounded-5 border bg-white collection-back-button p-2 slider-button" id="collection-back-button"><img
+                        src="./images/plant-collection/angle-left-solid.svg" alt="back button" height="40px"
+                        width="40px"></button>
+                <button class="rounded-5 border bg-white collection-forward-button p-2 slider-button"
+                    id="collection-forward-button"><img src="./images/plant-collection/angle-right-solid.svg"
+                        alt="forward button" height="40px" width="40px"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- our journey section -->
+
+    <section class="container our-journey-section mt-md-5 pt-xl-5">
+        <div>
+            <img src="images/our-journey-section/plant.png" alt="plant image" height="500px" class="journey-plant-img">
+            <div
+                class="d-flex flex-column flex-md-row justify-content-around align-items-center journey-detail-section">
+                <img src="images/our-journey-section/green-background.png" alt="green background" width="369px"
+                    height="390px" class="green-background">
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center align-items-md-start journey-right-section">
+                    <h2 class="mb-4 text-center text-md-start mt-4">Our journey</h2>
+                    <p class="heading-style text-description-color fs-5">It is a long established fact that a reader
+                        will be
+                        distracted by the readable content of a page when
+                        It is a long .It is a long established fact that a reader will be distracted by the readable
+                        content
+                        of a is simply.
+                    </p>
+                    <button
+                        class="border-1 border-black  px-5 py-2 rounded-5 fw-semibold mt-3 mt-md-5 bg-white button-style">Get
+                        start</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our advantage section -->
+
+    <section class="container-fluid our-advantage-section mt-5 pt-xl-5 ">
+        <h2 class="ms-lg-5 ps-lg-5 text-center text-lg-start">Our advantages</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-evenly gap-3">
+            <div
+                class="d-flex flex-column flex-xl-row justify-content-center align-items-center mt-5 advantages-cards py-3 rounded-4 gap-3">
+                <img src="images/our-advantage-section/icon-1.png" alt="watering icon" height="70px" width="70px"
+                    class="advantage-icons">
+                <div class="pe-lg-4 p-3">
+                    <p class="fs-6 fw-semibold">Easy order</p>
+                    <p class="text-description-color pe-3 pe-lg-5">It is a long established<br> fact that a reader will
+                        be.</p>
+                </div>
+            </div>
+            <div
+                class="d-flex flex-column flex-xl-row  mt-3 mt-md-5 justify-content-center align-items-center advantages-cards py-3 rounded-4 gap-3">
+                <img src="images/our-advantage-section/icon-2.png" alt="watering icon" height="70px" width="70px"
+                    class="advantage-icons">
+                <div class="pe-lg-4 p-3">
+                    <p class="fs-6 fw-semibold">Fast delivery</p>
+                    <p class="text-description-color pe-lg-5">It is a long established<br> fact that a reader will be.
+                    </p>
+                </div>
+            </div>
+            <div
+                class="d-flex flex-column flex-xl-row justify-content-center align-items-center mt-3 mt-md-5 advantages-cards py-3 rounded-4 gap-3">
+                <img src="images/our-advantage-section/icon-3.png" alt="watering icon" height="70px" width="70px"
+                    class="advantage-icons">
+                <div class="pe-lg-4 p-3">
+                    <p class="fs-6 fw-semibold">Easy order</p>
+                    <p class="text-description-color pe-lg-5">It is a long established<br> fact that a reader will be.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ask us Section -->
+
+    <section class="container-fluid ask-us-anything mt-5 pt-md-5 d-flex flex-column flex-md-row">
+        <div class="garden-backround">
+            <img src="images/ask-us-section/garden.png" alt="plants image" class="img-fluid w-100 h-100">
+        </div>
+        <div
+            class="ask-right-section d-flex flex-column justify-content-center align-items-center align-items-md-start my-md-5 ps-md-5 py-4 px-2 rounded-4 shadow">
+            <h2 class="fw-light">Ask us anything</h2>
+            <form class="d-flex flex-column justify-content-center ask-us-form">
+                <input type="text" placeholder="Name"
+                    class="border-top-0 border-end-0 border-start-0 border-1 input-fields mt-3">
+                <input type="number" placeholder="Phone"
+                    class="border-top-0 border-end-0 border-start-0 border-1 input-fields mt-3">
+                <input type="text" placeholder="e-mail"
+                    class="border-top-0 border-end-0 border-start-0 border-1 input-fields mt-3">
+                <input name="text"
+                    class="border-top-0 border-end-0 border-start-0 border-1 input-fields mt-3 pt-5"
+                    placeholder="message"></input>
+                <div class="d-flex flex-column flex-md-row mt-5 justify-content-between">
+                    <button
+                        class="border-1 border-black bg-white py-1 px-5 fw-semibold rounded-5 button-style">Send</button>
+                    <div class="d-flex justify-content-center  align-items-center gap-4 mt-2 me-lg-5 mt-3 mt-md-0">
+                        <a href="#" class="heading-color plant-social-icons"><i
+                                class="fa-brands fa-facebook-f fs-5"></i></a>
+                        <a href="#" class="heading-color plant-social-icons"><i
+                                class="fa-brands fa-instagram fs-5"></i></a>
+                        <a href="#" class="heading-color plant-social-icons"><i
+                                class="fa-brands fa-pinterest-p fs-5"></i></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Choosing section -->
+
+    <section
+        class="container choosing-section d-flex flex-column justify-content-center align-items-center my-5 pt-md-5">
+        <h2 class="fw-light">Chooseing the right plant</h2>
+        <div class="d-flex flex-column flex-md-row gap-2 gap-md-5 mt-4">
+            <div class="p-4 choosing-cards shadow">
+                <img src="images/choosing-section/plant.png" alt="plant image" height="100px" width="100px">
+                <p class="fs-5 fw-light ps-3 heading-style">Garden plants</p>
+                <p class="ps-3 pe-3 text-description-color">It is a long established fact that a<br> reader will be
+                    distracted by the</p>
+            </div>
+            <div class="p-4 choosing-cards shadow">
+                <img src="images/choosing-section/plant-2.png" alt="plant image" height="100px" width="100px">
+                <p class=" fs-5 fw-light ps-3 heading-style">Indoor plants</p>
+                <p class="ps-3 pe-3 text-description-color">It is a long established fact that a<br> reader will be
+                    distracted by the</p>
+            </div>
+            <div class="p-4 choosing-cards shadow">
+                <img src="images/choosing-section/plant-3.png" alt="plant image" height="100px" width="100px">
+                <p class=" fs-5 fw-light ps-3 heading-style">Home plants</p>
+                <p class="ps-3 pe-3 text-description-color">It is a long established fact that a<br> reader will be
+                    distracted by the</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Section -->
+
+    <section class="container-fluid client-section my-5 pt-md-5">
+        <h2 class="fw-light ms-lg-5 text-center text-lg-start">What clients talk about us</h2>
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center mt-5 gap-4">
+            <div class="me-5">
+                <button class="border rounded-5 p-3 bg-white slider-button" id="client-back-button">
+                    <img src="./images/client-section/play-solid.svg" alt="play button" height="25px" width="25px">
+                </button>
+            </div>
+            <div
+                class="client-slider d-flex flex-column flex-lg-row justify-content-center align-items-center client-review-card py-4 rounded-4 px-3 px-lg-0">
+                <img src="images/client-section/women-1.png" alt="women image" height="100px" width="100px"
+                    class="client-img">
+                <span><i class="fa-solid fa-quote-left"></i><span>
+                        <p class="ms-4 pe-lg-5 text-description-color">
+                            It is a long established fact that a readerwill be distracted by<br> the
+                            readable content of a page when It is a long .It is a long .It<br> is a long established
+                            fact that a reader will be . It
+                            is a long<br> established fact that a reader .
+                        </p>
+                        <span class="float-end me-5"><i class="fa-solid fa-quote-right"></i></span>
+            </div>
+            <div
+                class="client-slider d-flex flex-column flex-lg-row justify-content-center align-items-center client-review-card py-4 rounded-4 px-3 px-lg-0">
+                <img src="images/client-section/jhonedoe.png" alt="women image" height="100px" width="100px"
+                    class="client-img">
+                <span><i class="fa-solid fa-quote-left"></i><span>
+                        <p class="ms-4 pe-lg-5 text-description-color">It is a long established fact that a reader will
+                            be distracted by<br> the readable content of a page when
+                            It is a long .It is a long .It<br> is a long established fact that a reader will be . It is
+                            a long<br> established fact that a reader .</p>
+                        <span class="float-end me-5"><i class="fa-solid fa-quote-right pe-3"></i></span>
+            </div>
+            <div>
+                <button class="border rounded-5 p-3 bg-white slider-button" id="client-forward-button">
+                    <img src="./images/client-section/play-solid.svg" alt="play button" height="25px" width="25px">
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plant care section -->
+
+    <section
+        class="container-fluid plant-section my-5 pt-md-5 d-flex flex-column flex-lg-row justify-content-between gap-3">
+        <div class="d-flex flex-column justify-content-center justify-content-md-start align-items-center align-items-md-start p-2 ms-lg-5 plant-description">
+            <h2 class="text-center text-lg-start">Plant care</h2>
+            <p class="mt-2 mt-md-5 text-description-color plant-content">It is a long established fact that a reader will be
+                distracted by the
+                readable content of a page when It
+                is a long.It is a long established fact that a reader will be distracted by the readable content
+                of a
+                is simply.<br>a page when It is a long .It is a long established fact that a reader will be
+                distracted by
+                the readable content of a is simply.
+            </p>
+            <button
+                class="border-1 border-black bg-white rounded-5 py-2 px-5 fw-semibold mt-3 mt-md-5 button-style">Read
+                the blog</button>
+        </div>
+        <div class="jungle-img">
+            <img src="images/plant-section/jungle.png" alt="jungle section" class="img-fluid h-100 w-100">
+        </div>
+    </section>
+
+    <!-- footer Section -->
+
+    <footer class="d-flex flex-column mt-5 pt-5">
+        <div class="d-flex flex-column flex-md-row justify-content-evenly px-2">
+            <div class="d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                <p class=" fs-1 fw-semibold footer-list-color">nuvosa</p>
+                <p class="footer-list-color text-size text-center text-md-start">It is a long established fact that a
+                    reader
+                    will be<br> distracted by the readable
+                    content of a page when It is<br> a long .It is a long established fact that a reader will be<br>
+                    distracted by the.</p>
+                <div class="d-flex gap-2">
+                    <a href="#" target="_blank"><i class="fa-brands fa-square-instagram social-icon fs-4"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-square-facebook social-icon fs-4"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-square-youtube social-icon fs-4"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-square-twitter social-icon fs-4"></i></a>
+                </div>
+            </div>
+            <div class="d-flex flex-column align-items-center align-items-md-start mt-3">
+                <p class="fw-semibold footer-list-color">Services</p>
+                <ul class="p-0 footer-list-color">
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Gardening</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Lawn service</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Leaf removal</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Decoration</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Trimming</a></li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column align-items-center align-items-md-start">
+                <p class="fw-semibold footer-list-color">Support</p>
+                <ul class="p-0 footer-list-color">
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Gardening</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Lawn service</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Leaf removal</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Decoration</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Trimming</a></li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column align-items-center align-items-md-start">
+                <p class="fw-semibold footer-list-color">Company</p>
+                <ul class="p-0 footer-list-color">
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Gardening</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Lawn service</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Leaf removal</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Decoration</a></li>
+                    <li class="list-unstyled"><a href="#"
+                            class="footer-list-color text-decoration-none text-size text-style">Trimming</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="mt-3 line">
+        <div class="d-flex flex-column flex-md-row justify-content-between mx-lg-5 my-4 px-lg-5 gap-4">
+            <span class="footer-list-color ms-3 ms-xl-5 ps-xl-5 text-size">Copyright © 2023 nuvosa, All rights
+                reserved.</span>
+            <ul class="d-flex flex-md-row gap-4 me-4 me-xl-5 pe-xl-5">
+                <li><a href="#" class="text-decoration-none footer-list-color text-size text-style">Terms of use</a>
+                </li>
+                <li><a href="#" class="text-decoration-none footer-list-color text-size text-style">copyright &
+                        trademark</a>
+                </li>
+                <li><a href="#" class="text-decoration-none footer-list-color text-size text-style">Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

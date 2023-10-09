@@ -1,0 +1,516 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav section */
+
+.nav-sub-title {
+    color: #7D807E;
+}
+
+.nav-items {
+    font-size: 20px;
+}
+
+.nav-search-bar {
+    width: 10rem;
+}
+
+.nav-search-bar:focus {
+    outline: none;
+}
+
+.nav-search-bar::placeholder {
+    color: #C0C0C0;
+    font-size: 14px;
+}
+
+/* Hero Section */
+
+.hero-leafs-image {
+    height: 40vh;
+}
+
+.horizontal-line {
+    width: 2rem;
+}
+
+.hero-buttons {
+    border: 1px solid black;
+}
+
+.hero-back-button {
+    transform: rotate(180deg);
+}
+
+.hero-social-icons:hover {
+    transform: scale(1.5);
+}
+
+.hero-line {
+    color: #3E8847;
+}
+
+/* Plant Collection Section */
+
+.our-journey-section {
+    position: relative;
+}
+
+.journey-detail-section {
+    padding-top: 10rem;
+}
+
+.journey-right-section {
+    width: 100%;
+}
+
+.journey-plant-img {
+    position: absolute;
+    left: 1.5rem;
+    top: 50px;
+}
+
+.collection-back-button,
+.back-icon {
+    border-color: #09270D !important;
+}
+
+.collection-forward-button,
+.forward-icon {
+    border-color: #F5C771 !important;
+}
+
+.collection-slider-container {
+    transition: all .7s ease-in-out;
+}
+
+/* Ourt Advantages section  */
+
+.advantages-cards {
+    background-color: #FCFBF8;
+}
+
+.advantage-icons {
+    margin-left: -2.5rem;
+}
+
+/* Ask us anything section */
+
+.green-background {
+    width: 100%;
+}
+
+.garden-backround {
+    width: 100%;
+}
+
+.ask-right-section {
+    background-color: #FAF9F7;
+}
+
+.ask-us-form {
+    width: 90%;
+}
+
+.input-fields {
+    background-color: #FAF9F7;
+    border-color: #ECECEC !important;
+}
+
+.input-fields::placeholder {
+    color: #9C9FA6;
+}
+
+/* Choosing Section */
+
+.choosing-cards {
+    box-shadow: 2px 2px 5px #0216051A;
+}
+
+.choosing-cards:hover {
+    background-color: #3E8847;
+    transform: scale(1.2);
+    transition: all 0.7s ease-in-out;
+}
+
+.choosing-cards:hover p {
+    color: white !important;
+}
+
+/* Client section */
+
+.client-review-card {
+    box-shadow: 2px 2px 5px #0216051A;
+}
+
+.client-review-card:hover {
+    background-color: #3E8847;
+    color: white;
+}
+
+.client-review-card:hover p {
+    color: white;
+}
+
+.client-img {
+    margin-left: -3rem;
+}
+
+/* Plant section */
+
+.jungle-img {
+    width: 100%;
+}
+
+.plant-description {
+    width: 100%;
+    font-family: Playfair;
+}
+
+.plant-social-icons:hover {
+    transform: scale(1.5);
+}
+
+/* Footer section */
+
+footer {
+    background-color: #09270D;
+}
+
+.line {
+    width: 100%;
+    color: white;
+    margin: auto;
+}
+
+/* common section */
+
+.heading-color {
+    color: #3E8847 !important;
+}
+
+h1,
+h2,
+.heading-style {
+    font-family: Playfair;
+    color: #09270D;
+}
+
+.text-description-color {
+    color: #727272;
+}
+
+.footer-list-color,
+.social-icon {
+    color: #D0D6C9;
+}
+
+.text-size {
+    font-size: 14px !important;
+}
+
+.button-style:hover {
+    background-color: #09270D !important;
+    color: white;
+}
+
+.text-style:hover {
+    color: #92f80d !important;
+    text-decoration: 2px underline !important;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.slider-button:hover {
+    transform: scale(1.1);
+}
+
+.animation {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.hero-slider-line {
+    width:100px !important;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0.1;
+        translate: 20px;
+    }
+    to {
+        opacity: 1;
+        traslate:-20px;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-left {
+        width: 40%;
+        position: relative;
+        top: 20%;
+        z-index: 2;
+        left: 4%;
+    }
+
+    .hero-right {
+        width: 80%;
+        position: relative;
+    }
+
+    .hero-plant-image {
+        width: 70%;
+        height: 70%;
+        overflow-x: hidden;
+        z-index: 1;
+        position: absolute;
+        top: 15%;
+    }
+
+    .hero-leafs-image {
+        width: 40%;
+        height: 100%;
+        overflow-x: hidden;
+        z-index: -1;
+        position: absolute;
+        left: 60%;
+    }
+
+    .garden-backround {
+        width: 60%;
+        height: 550px;
+        z-index: -1;
+        position: relative;
+    }
+
+    .ask-right-section {
+        background-color: #FAF9F7;
+        position: absolute;
+        left: 25rem;
+        height: 450px;
+        width: 47%;
+        z-index: 1;
+    }
+
+    .ask-us-form {
+        width: 90%;
+    }
+
+    .green-background {
+        width: 45%;
+    }
+
+    .journey-plant-img {
+        position: absolute;
+        left: 11rem;
+        top: 98px;
+    }
+
+    .journey-right-section {
+        width: 20rem;
+    }
+
+    .our-journey-section {
+        position: relative;
+        height: 600px;
+    }
+
+    .journey-plant-img {
+        position: absolute;
+        left: 2.8rem;
+        top: 50px;
+    }
+
+    .jungle-img {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-left {
+        width: 30%;
+        position: relative;
+        top: 5%;
+        z-index: 2;
+        left: 4%;
+    }
+
+    .hero-right {
+        width: 75%;
+        position: relative;
+    }
+
+    .hero-plant-image {
+        width: 90%;
+        height: 80%;
+        overflow-x: hidden;
+        z-index: 1;
+        position: absolute;
+        top: 8%;
+    }
+
+    .hero-leafs-image {
+        width: 29%;
+        overflow-x: hidden;
+        z-index: -1;
+        left: 71%;
+    }
+
+    .green-background {
+        width: 40%;
+    }
+
+    .garden-backround {
+        width: 60%;
+        height: 550px;
+        z-index: -1;
+        position: relative;
+    }
+
+    .ask-right-section {
+        background-color: #FAF9F7;
+        position: absolute;
+        left: 33.8rem;
+        height: 450px;
+        width: 47%;
+        z-index: 1;
+    }
+
+    .ask-us-form {
+        width: 90%;
+    }
+
+    .journey-plant-img {
+        position: absolute;
+        left: 5rem;
+        top: 50px;
+    }
+
+    .journey-right-section {
+        width: 29rem;
+    }
+
+    .plant-description {
+        width: 50%;
+    }
+
+    .jungle-img {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-sub-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-left {
+        width: 25%;
+        position: relative;
+        top: 30%;
+        z-index: 2;
+        left: 6%;
+    }
+
+    .hero-right {
+        width: 80%;
+        position: relative;
+    }
+
+    .hero-plant-image {
+        width: 70%;
+        height: 80%;
+        overflow-x: hidden;
+        z-index: 1;
+        position: absolute;
+        top: 10%;
+    }
+
+    .hero-leafs-image {
+        width: 40%;
+        height: 100%;
+        overflow-x: hidden;
+        z-index: -1;
+        position: absolute;
+        left: 60%;
+    }
+
+    .green-background {
+        width: 30%;
+    }
+
+    .journey-plant-img {
+        position: absolute;
+        left: 11rem;
+        top: 98px;
+    }
+
+    .journey-right-section {
+        width: 29rem;
+    }
+
+    .ask-right-section {
+        background-color: #FAF9F7;
+        position: absolute;
+        left: 53%;
+        height: 450px;
+        width: 47%;
+        z-index: 1;
+    }
+
+    .ask-us-form {
+        width: 90%;
+    }
+
+    .plant-content {
+        font-size: 1.5rem;
+    }
+
+    .plant-description {
+        width: 37%;
+    }
+
+    .jungle-img {
+        width: 60%;
+    }
+
+    .garden-backround {
+        width: 60%;
+        height: 60vh;
+        z-index: -1;
+        position: relative;
+    }
+}
